@@ -1,0 +1,45 @@
+{
+  "widget": {
+    "isSystemType": false,
+    "bundleAlias": "control_widgets",
+    "typeAlias": "update_shared_attribute_select",
+    "type": "control",
+    "title": "Chọn Giai Đoạn Cây Ngô",
+    "sizeX": 3,
+    "sizeY": 2,
+    "config": {
+      "datasources": [
+        {
+          "type": "entity",
+          "dataKeys": [
+            {
+              "name": "AT1",
+              "type": "attribute",
+              "label": "Giai đoạn",
+              "settings": {
+                "options": [
+                  {"value": 1, "label": "GĐ 1"},
+                  {"value": 2, "label": "GĐ 2"},
+                  {"value": 3, "label": "GĐ 3"},
+                  {"value": 4, "label": "GĐ 4"},
+                  {"value": 5, "label": "GĐ 5"}
+                ],
+                "dataScope": "SHARED_SCOPE"
+              }
+            }
+          ]
+        }
+      ],
+      "showTitle": true,
+      "backgroundColor": "#ffffff",
+      "titleStyle": {
+        "fontSize": "14px",
+        "fontWeight": "bold"
+      },
+      "settings": {
+        "selectTitle": "Chọn giai đoạn sinh trưởng",
+        "displayValueFormat": "GĐ {value}"
+      }
+    }
+  }
+}

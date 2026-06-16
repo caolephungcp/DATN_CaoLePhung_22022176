@@ -1,0 +1,8 @@
+paho-mqtt==1.6.1
+Pillow==9.5.0
+opencv-python==4.7.0.72
+ultralytics==8.0.100
+adafruit-circuitpython-rfm9x==3.3.2
+adafruit-blinka==8.20.0
+RPi.GPIO==0.7.0
+schedule==1.1.10
